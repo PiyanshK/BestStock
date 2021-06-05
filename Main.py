@@ -58,10 +58,9 @@ while True:
 
 
         def profit(startingprice, endingprice, money):
-            no_of_shares = money // startingprice
-            difference = endingprice - startingprice
-            profit = no_of_shares * difference
-            return profit
+          no_of_shares = money // startingprice
+          difference = endingprice - startingprice
+          return no_of_shares * difference
 
 
         SPY_starting_average = daily_average_finder(Starting_date, spy_data)
